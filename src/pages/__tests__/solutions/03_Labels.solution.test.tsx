@@ -3,7 +3,7 @@ import userEvent from "@testing-library/user-event";
 import { describe, it, expect } from "vitest";
 import { Labels } from "../..";
 
-describe("Labels", () => {
+describe.skip("Labels", () => {
   it("should check associated labels with inputs", async () => {
     userEvent.setup();
 

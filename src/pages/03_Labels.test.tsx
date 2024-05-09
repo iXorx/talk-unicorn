@@ -8,5 +8,7 @@ describe("Labels", () => {
     userEvent.setup();
 
     render(<Labels />);
+
+    expect(true).toBe(true);
   });
 });

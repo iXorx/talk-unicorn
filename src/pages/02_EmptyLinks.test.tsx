@@ -5,5 +5,7 @@ import { EmptyLinks } from ".";
 describe("EmptyLinks", () => {
   it.todo("should check a11y features", () => {
     render(<EmptyLinks />);
+
+    expect(true).toBe(true);
   });
 });

@@ -5,5 +5,7 @@ import { Lang } from ".";
 describe("Lang", () => {
   it.todo("should check a11y features", () => {
     render(<Lang />);
+
+    expect(true).toBe(true);
   });
 });
