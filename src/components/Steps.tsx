@@ -20,14 +20,14 @@ export function Steps() {
           isActive={currentStep === 1}
         />
         <Step
-          to="/empty-links"
-          name="Enlaces"
+          to="/labels"
+          name="Labels"
           isCompleted={currentStep > 2}
           isActive={currentStep === 2}
         />
         <Step
-          to="/labels"
-          name="Labels"
+          to="/empty-links"
+          name="Enlaces"
           isCompleted={currentStep > 3}
           isActive={currentStep === 3}
         />

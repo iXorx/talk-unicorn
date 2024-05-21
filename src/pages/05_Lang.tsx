@@ -26,7 +26,7 @@ export const Lang = () => {
             and percentage difference in errors from the overall average.
           </p>
 
-          <table style={{ textAlign: "center" }}>
+          <table>
             <tbody>
               <tr>
                 <th>Specified Language</th>
@@ -36,147 +36,111 @@ export const Lang = () => {
               </tr>
               <tr>
                 <td>English</td>
-                <td>561,734</td>
-                <td>43.7</td>
-                <td style={{ color: "#222", backgroundColor: "#B6FFC9" }}>
-                  −12.5%
-                </td>
-              </tr>
-              <tr>
-                <td>No language specified</td>
-                <td>178,475</td>
-                <td>47.3</td>
-                <td style={{ color: "#222", backgroundColor: "#B6FFC9" }}>
-                  −5.3%
-                </td>
+                <td>488,599</td>
+                <td>47.9</td>
+                <td className="pos">−15.6%</td>
               </tr>
               <tr>
                 <td>Dutch</td>
-                <td>9,312</td>
-                <td>47.6</td>
-                <td style={{ color: "#222", backgroundColor: "#B6FFC9" }}>
-                  −4.7%
-                </td>
+                <td>11,549</td>
+                <td>50.3</td>
+                <td className="pos">−11.4%</td>
               </tr>
               <tr>
                 <td>German</td>
-                <td>29,878</td>
-                <td>51.4</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +2.8%
-                </td>
+                <td>28,293</td>
+                <td>54.3</td>
+                <td className="pos">−4.4%</td>
+              </tr>
+              <tr>
+                <td>No language specified</td>
+                <td>160,101</td>
+                <td>56.2</td>
+                <td className="pos">−1.1%</td>
               </tr>
               <tr>
                 <td>Japanese</td>
-                <td>20,307</td>
-                <td>54.6</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +9.3%
-                </td>
+                <td>33,991</td>
+                <td>60.1</td>
+                <td className="neg">+5.9%</td>
               </tr>
               <tr>
                 <td>French</td>
-                <td>22,780</td>
-                <td>57.2</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +14.4%
-                </td>
-              </tr>
-              <tr>
-                <td>Indonesian</td>
-                <td>5,092</td>
-                <td>58.7</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +17.4%
-                </td>
-              </tr>
-              <tr>
-                <td>Portuguese</td>
-                <td>11,479</td>
-                <td>59.4</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +18.7%
-                </td>
-              </tr>
-              <tr style={{ backgroundColor: "#222" }}>
-                <td>Spanish</td>
-                <td>28,512</td>
-                <td>59.8</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +19.6%
-                </td>
-              </tr>
-              <tr>
-                <td>Polish</td>
-                <td>8,389</td>
-                <td>62.9</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +25.8%
-                </td>
-              </tr>
-              <tr>
-                <td>Italian</td>
-                <td>11,931</td>
-                <td>66.0</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +31.9%
-                </td>
-              </tr>
-              <tr>
-                <td>Farsi</td>
-                <td>9,632</td>
-                <td>75.4</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +50.9%
-                </td>
-              </tr>
-              <tr>
-                <td>Arabic</td>
-                <td>5,990</td>
-                <td>75.8</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +51.5%
-                </td>
-              </tr>
-              <tr>
-                <td>Turkish</td>
-                <td>7,331</td>
-                <td>76.8</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +53.6%
-                </td>
+                <td>20,670</td>
+                <td>62.3</td>
+                <td className="neg">+9.6%</td>
               </tr>
               <tr>
                 <td>Russian</td>
-                <td>29,307</td>
-                <td>79.6</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +59.2%
-                </td>
+                <td>75,321</td>
+                <td>64.4</td>
+                <td className="neg">+13.4%</td>
+              </tr>
+              <tr>
+                <td>Spanish</td>
+                <td>30,242</td>
+                <td>65.3</td>
+                <td className="neg">+15.0%</td>
+              </tr>
+              <tr>
+                <td>Portuguese</td>
+                <td>26,703</td>
+                <td>68.7</td>
+                <td className="neg">+20.9%</td>
+              </tr>
+              <tr>
+                <td>Italian</td>
+                <td>10,882</td>
+                <td>70.7</td>
+                <td className="neg">+24.4%</td>
+              </tr>
+              <tr>
+                <td>Polish</td>
+                <td>8,805</td>
+                <td>72.8</td>
+                <td className="neg">+28.2%</td>
+              </tr>
+              <tr>
+                <td>Turkish</td>
+                <td>8,344</td>
+                <td>74.7</td>
+                <td className="neg">+31.5%</td>
               </tr>
               <tr>
                 <td>Chinese</td>
-                <td>9,063</td>
-                <td>88.8</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +77.6%
-                </td>
+                <td>8,298</td>
+                <td>76.2</td>
+                <td className="neg">+34.2%</td>
               </tr>
               <tr>
-                <td>Vietnamese</td>
-                <td>5,648</td>
-                <td>89.9</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +79.8%
-                </td>
+                <td>Farsi</td>
+                <td>5,839</td>
+                <td>78.3</td>
+                <td className="neg">+37.9%</td>
               </tr>
               <tr>
                 <td>Korean</td>
-                <td>7,147</td>
-                <td>96.5</td>
-                <td style={{ color: "#222", backgroundColor: "#FFB5BC" }}>
-                  +92.9%
-                </td>
+                <td>6,239</td>
+                <td>86.9</td>
+                <td className="neg">+53.1%</td>
+              </tr>
+              <tr>
+                <td>Vietnamese</td>
+                <td>5,609</td>
+                <td>88.0</td>
+                <td className="neg">+54.9%</td>
+              </tr>
+              <tr>
+                <td>No linguistic content/not applicable (lang=zxx)</td>
+                <td>7,218</td>
+                <td>93.4</td>
+                <td className="neg">+64.5%</td>
+              </tr>
+              <tr>
+                <td>Indonesian</td>
+                <td>11,813</td>
+                <td>130.8</td>
+                <td className="neg">+130.3%</td>
               </tr>
             </tbody>
           </table>

@@ -25,9 +25,9 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="alt" element={<AltText />} />
           <Route path="contrast" element={<Contrast />} />
+          <Route path="labels" element={<Labels />} />
           <Route path="empty-buttons" element={<EmptyButtons />} />
           <Route path="empty-links" element={<EmptyLinks />} />
-          <Route path="labels" element={<Labels />} />
           <Route path="lang" element={<Lang />} />
         </Routes>
       </main>

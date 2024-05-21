@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
-import { Lang } from "../..";
+import { Lang } from "..";
 
 describe.skip("Lang", () => {
   it("should check lang defined", () => {

@@ -70,7 +70,7 @@ export const Contrast = () => {
         normalmente tiene font-weight:bold, o font-weight:700 o mayor.
       </p>
       <aside lang="en">
-        <h3>Aside</h3>
+        <h3>More contrast info</h3>
         <a href="https://webaim.org/articles/contrast/">WebAIM Contrast</a>
         <p>
           In WCAG 2, contrast is a measure of the difference in perceived

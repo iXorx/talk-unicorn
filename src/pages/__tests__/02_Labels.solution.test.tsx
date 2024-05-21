@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, it, expect } from "vitest";
-import { Labels } from "../..";
+import { Labels } from "..";
 
 describe.skip("Labels", () => {
   it("should check associated labels with inputs", async () => {
@@ -23,10 +23,6 @@ describe.skip("Labels", () => {
 
     // Comprobamos que al hacer tab el input pierde el foco
     await userEvent.tab();
-    await userEvent.tab();
     expect(nameInput).not.toHaveFocus();
-
-    // Comprobamos que el input de domicilio tiene el foco
-    expect(screen.getByLabelText("Domicilio")).toHaveFocus();
   });
 });

@@ -15,21 +15,26 @@ export const Landing = () => {
       <div className="card" lang="en">
         <table width={700}>
           <caption>
-            <h4>Home pages with most common WCAG 2 failures</h4>
+            <h4>
+              % Home pages with most common WCAG 2 failures during different
+              years
+            </h4>
           </caption>
           <tbody>
             <tr>
               <th>WCAG Failure Type</th>
-              <th>% of home pages in 2023</th>
-              <th>% of home pages in 2022</th>
-              <th>% of home pages in 2021</th>
-              <th>% of home pages in 2020</th>
-              <th>% of home pages in 2019</th>
+              <th>2024</th>
+              <th>2023</th>
+              <th>2022</th>
+              <th>2021</th>
+              <th>2020</th>
+              <th>2019</th>
             </tr>
             <tr>
               <td>
                 <Link to="/contrast">Low contrast text</Link>
               </td>
+              <td>81.0%</td>
               <td>83.6%</td>
               <td>83.9%</td>
               <td>86.4%</td>
@@ -40,6 +45,7 @@ export const Landing = () => {
               <td>
                 <Link to="alt">Missing alternative text for images</Link>
               </td>
+              <td>54.5%</td>
               <td>58.2%</td>
               <td>55.4%</td>
               <td>60.6%</td>
@@ -50,6 +56,7 @@ export const Landing = () => {
               <td>
                 <Link to="empty-links">Empty links</Link>
               </td>
+              <td>44.6%</td>
               <td>50.1%</td>
               <td>49.7%</td>
               <td>51.3%</td>
@@ -60,6 +67,7 @@ export const Landing = () => {
               <td>
                 <Link to="labels">Missing form input labels</Link>
               </td>
+              <td>48.6%</td>
               <td>45.9%</td>
               <td>46.1%</td>
               <td>54.4%</td>
@@ -70,6 +78,7 @@ export const Landing = () => {
               <td>
                 <Link to="empty-buttons">Empty buttons</Link>
               </td>
+              <td>28.2%</td>
               <td>27.5%</td>
               <td>27.2%</td>
               <td>26.9%</td>
@@ -80,6 +89,7 @@ export const Landing = () => {
               <td>
                 <Link to="lang">Missing document language</Link>
               </td>
+              <td>17.1%</td>
               <td>18.6%</td>
               <td>22.3%</td>
               <td>28.9%</td>
@@ -90,8 +100,8 @@ export const Landing = () => {
         </table>
       </div>
       <p>
-        The top 5 WCAG 2 failures are the same as in 2022. The top 5 failures
-        account for 78.3% of all detected failures.
+        96.4% of all errors detected fall into these six categories. These most
+        common errors have been the same for the last 5 years.
       </p>
     </>
   );

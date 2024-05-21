@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import ColorContrastChecker from "color-contrast-checker";
 import { describe, it, expect } from "vitest";
-import { Contrast } from "../..";
+import { Contrast } from "..";
 
 describe.skip("Contrast", () => {
   it("should has proper AA contrast level", () => {

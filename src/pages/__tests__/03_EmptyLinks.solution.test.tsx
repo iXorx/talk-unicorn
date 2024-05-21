@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
-import { EmptyLinks } from "../..";
+import { EmptyLinks } from "..";
 
 describe.skip("EmptyLinks", () => {
   it("should show all links with content", () => {
