@@ -2,10 +2,7 @@ export const AltText = () => {
   return (
     <div>
       <h2>Texto Alternativo</h2>
-      <img
-        src="https://images.pexels.com/photos/769749/pexels-photo-769749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        alt=""
-      />
+      <img src="https://images.pexels.com/photos/769749/pexels-photo-769749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
       <h3>Descripción</h3>
       <p>
         Camisa de manga larga con cuello de solapa y cierre de botones en la

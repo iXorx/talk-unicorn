@@ -13,26 +13,30 @@ export const Labels = () => {
       <h2>Ausencia de Labels</h2>
       <form>
         <div>
+          <p>Con label explícito</p>
+
           <label htmlFor="name">
             Nombre
             <input
               style={inputStyle}
               type="text"
               id="name"
-              autoComplete="name"
+              autoComplete="given-name"
             />
           </label>
         </div>
         <div>
+          <p>Con "for"</p>
           <label htmlFor="surname">Apellidos</label>
           <input
             style={inputStyle}
             type="text"
             id="surname"
-            autoComplete="surname"
+            autoComplete="family-name"
           />
         </div>
         <div>
+          <p>Con placeholder</p>
           <input
             style={inputStyle}
             placeholder="Domicilio"
@@ -43,15 +47,17 @@ export const Labels = () => {
           ></input>
         </div>
         <div>
+          <p>Con aria-label</p>
           <input
             style={inputStyle}
             type="tel"
             aria-label="Teléfono"
             placeholder="Teléfono"
-            autoComplete="phone"
+            autoComplete="tel"
           />
         </div>
         <div>
+          <p>Con aria-labelledby</p>
           <input
             style={inputStyle}
             type="search"
@@ -67,7 +73,7 @@ export const Labels = () => {
         <input style={inputStyle} type="submit" value="Enviar" />
       </form>
 
-      <aside lang="en">
+      <aside lang="en" aria-label="WebAIM information">
         <article>
           <h2>Form Labeling</h2>
           <p>

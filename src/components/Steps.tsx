@@ -5,7 +5,7 @@ import "./Steps.css";
 export function Steps() {
   const currentStep = useStepNumber();
   return (
-    <nav>
+    <nav aria-label="Navegación">
       <ol aria-label="Errores mas comunes">
         <Step
           to="/contrast"

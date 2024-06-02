@@ -15,6 +15,6 @@ describe("Stepper", () => {
     const step = screen.getByRole("listitem", {
       current: "step",
     });
-    expect(within(step).getByText("Enlaces")).toBeInTheDocument();
+    expect(within(step).getByText("Labels")).toBeInTheDocument();
   });
 });

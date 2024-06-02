@@ -7,7 +7,7 @@ describe("Contrast", () => {
   it("should check a11y contrast", () => {
     render(<Contrast />);
 
-    const target = screen.getByText(/I am red text/);
+    const target = screen.getByText(/Gris en blanco/);
     const computed = getComputedStyle(target);
     const textColor = computed.getPropertyValue("color");
     const bgColor = computed.getPropertyValue("background-color");

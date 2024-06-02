@@ -13,11 +13,11 @@ export const Contrast = () => {
           <span
             style={{
               ...baseStyle,
-              color: "#767676",
+              color: "#999",
               backgroundColor: "#fff",
             }}
           >
-            Gris (#767676) en blanco
+            Gris en blanco
           </span>
         </li>
         <li>
