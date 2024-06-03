@@ -14,8 +14,7 @@ export const Labels = () => {
       <form>
         <div>
           <p>Con label explícito</p>
-
-          <label htmlFor="name">
+          <label>
             Nombre
             <input
               style={inputStyle}
@@ -27,7 +26,7 @@ export const Labels = () => {
         </div>
         <div>
           <p>Con "for"</p>
-          <label htmlFor="surname">Apellidos</label>
+          <label>Apellidos</label>
           <input
             style={inputStyle}
             type="text"
@@ -39,20 +38,19 @@ export const Labels = () => {
           <p>Con placeholder</p>
           <input
             style={inputStyle}
-            placeholder="Domicilio"
+            // placeholder="Domicilio"
             autoComplete="address-line1"
             type="text"
             id="address-one"
             name="address-one"
-          ></input>
+          />
         </div>
         <div>
           <p>Con aria-label</p>
           <input
             style={inputStyle}
             type="tel"
-            aria-label="Teléfono"
-            placeholder="Teléfono"
+            // aria-label="Teléfono"
             autoComplete="tel"
           />
         </div>
@@ -61,8 +59,8 @@ export const Labels = () => {
           <input
             style={inputStyle}
             type="search"
-            aria-labelledby="search"
-            placeholder="Busca la población mas cercana"
+            // aria-labelledby="search"
+            // placeholder="Busca la población mas cercana"
             autoComplete="search"
           />
           <button type="button" id="search">

@@ -69,9 +69,10 @@ button:focus-visible {
   }
 }
 
-/* img:not([alt]) {
-  outline: 15px dashed orange;
-} */
+img:not([alt]) {
+  outline: 100px double red;
+  outline-offset: -100px;
+}
 
 #root {
   max-width: 1280px;
