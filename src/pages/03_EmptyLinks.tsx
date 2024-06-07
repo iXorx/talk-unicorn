@@ -1,17 +1,3 @@
-const likeAButton = {
-  display: "inline-block",
-  padding: "0.5rem 1rem",
-  border: "1px solid #ccc",
-  borderRadius: "0.25rem",
-  textDecoration: "none",
-  color: "#ccc",
-  transition: "all 0.3s ease",
-  margin: "0.5rem",
-  ":hover": {
-    backgroundColor: "#eee",
-  },
-};
-
 export const EmptyLinks = () => {
   const condicionChunga = 7;
   return (
@@ -32,7 +18,10 @@ export const EmptyLinks = () => {
           </svg>
         </a>
       </div>
-      <a href={condicionChunga > 1 ? undefined : "#"} style={likeAButton}>
+      <a
+        href={condicionChunga > 1 ? undefined : "/seccion-molona"}
+        className="like-button"
+      >
         Yo si tengo contenido pero a veces pierdo el link
       </a>
       <aside>
