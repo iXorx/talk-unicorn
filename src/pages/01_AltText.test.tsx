@@ -6,6 +6,8 @@ describe("AltText", () => {
   it.todo("should check a11y features", () => {
     render(<AltText />);
 
+    screen.debug();
+
     expect(true).toBe(true);
   });
 });

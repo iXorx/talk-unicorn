@@ -9,6 +9,8 @@ describe("Labels", () => {
 
     render(<Labels />);
 
+    screen.debug();
+
     expect(true).toBe(true);
   });
 });

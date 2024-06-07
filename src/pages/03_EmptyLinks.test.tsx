@@ -6,6 +6,8 @@ describe("EmptyLinks", () => {
   it.todo("should check a11y features", () => {
     render(<EmptyLinks />);
 
+    screen.debug();
+
     expect(true).toBe(true);
   });
 });

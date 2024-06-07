@@ -6,6 +6,8 @@ describe("EmptyButtons", () => {
   it.todo("should check a11y features", () => {
     render(<EmptyButtons />);
 
+    screen.debug();
+
     expect(true).toBe(true);
   });
 });
