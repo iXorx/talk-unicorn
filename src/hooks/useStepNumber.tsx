@@ -8,9 +8,9 @@ export const useStepNumber = (): number => {
       return 0;
     case "/alt":
       return 1;
-    case "/empty-links":
-      return 2;
     case "/labels":
+      return 2;
+    case "/empty-links":
       return 3;
     case "/empty-buttons":
       return 4;
